@@ -3,6 +3,9 @@ head {
 }
 body {
   color: #383543;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*Create the topnav class and apply general styling */
