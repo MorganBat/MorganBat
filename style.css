@@ -3,12 +3,11 @@ head {
 }
 body {
   color: #383543;
+  background-color: #D6AA7B;
 }
 
 h3{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
 }
 
 /*Create the topnav class and apply general styling */
@@ -48,7 +47,7 @@ h3{
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: D6AA7B;
+  background-color: #D6AA7B;
   color: #333;
   text-align: left;
 }
