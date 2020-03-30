@@ -1,6 +1,3 @@
-head {
-
-}
 body {
   color: #383543;
   background-color: #D6AA7B;
@@ -11,7 +8,7 @@ h3{
 }
 
 /*Create the topnav class and apply general styling */
-#topnav {
+.topnav {
   background-color: #333;
   overflow: hidden;
   margin: 0
@@ -20,7 +17,7 @@ h3{
 }
 
 /* Style the links inside the navigation bar */
-#topnav a {
+.topnav a {
   float: left;
   color: #D6AA7B;
   text-align: center;
@@ -31,35 +28,37 @@ h3{
 }
 
 /* Change the color of links on hover */
-#topnav a:hover {
+.topnav a:hover {
   background-color: #ddd;
   color: #333;
 }
 
 /* Add a color to the active/current link */
-#topnav a.active {
+.topnav a.active {
   background-color: #D6AA7B;
   color: #333;
 }
 
-#footer {
-  display: flex
+.footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: #333;
-  color: #D6AA7B;
+  text-align: center;
 }
 
-#footer a {
+.footer a {
   color: #D6AA7B
+  font-size: 20px;
+  color: #D6AA7B;
+  font-family: 'Roboto', sans-serif;
 }
 
-.grow { 
+/* .grow { 
   transition: all .2s ease-in-out; 
   }
   
   .grow:hover { 
   transform: scale(1.1); 
-  }
+  } */
