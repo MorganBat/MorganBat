@@ -1,6 +1,7 @@
 body {
   color: #383543;
   background-color: #D6AA7B;
+  font-family: 'Roboto', sans-serif;
   border: 0;
   margin: 0;
   padding: 0;
@@ -27,7 +28,7 @@ h3{
   padding: 10px 10px;
   text-decoration: none;
   font-size: 20px;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
 }
 
 /* Change the color of links on hover */
@@ -56,12 +57,6 @@ h3{
   font-size: 20px;
   color: #D6AA7B;
   font-family: 'Roboto', sans-serif;
+  
 }
 
-/* .grow { 
-  transition: all .2s ease-in-out; 
-  }
-  
-  .grow:hover { 
-  transform: scale(1.1); 
-  } */
