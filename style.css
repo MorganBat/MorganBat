@@ -71,6 +71,8 @@ footer {
   width: 100%;
   background-color: #333;
   transition: 1s;
+  font-family: 'Roboto', sans-serif;
+  color: #D6AA7B
 }
 
 footer .copyright {
@@ -81,11 +83,9 @@ footer .copyright {
 
 /* Style the footer links */
 footer a {
-  color: #D6AA7B
   font-size: 20px;
   padding: 5px;
   color: #D6AA7B;
-  font-family: 'Roboto', sans-serif;
 }
 
 /* Change individual icon colors */
@@ -110,12 +110,13 @@ footer a:hover {
   transform: scale(2);
 }
 
+/* Align text in footer to the left */
 #footerleft {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: flex-start;
 }
-
+/* Align icons in footer to the right */
 #footerright {
   display: flex;
   flex-direction: row;
