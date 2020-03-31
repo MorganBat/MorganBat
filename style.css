@@ -11,8 +11,11 @@ h3{
   text-align: center;
 }
 
-/*Create the topnav class and apply general styling */
+/*Creatr my top nav bar */
 .topnav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: #333;
   overflow: hidden;
   margin: 0
@@ -20,7 +23,20 @@ h3{
   border: 0
 }
 
-/* Style the links inside the navigation bar */
+/* Align items to left or right on navbar as required */
+#navbarleft {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+#navbarright {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+/* Style for navbar links */
 .topnav a {
   float: left;
   color: #D6AA7B;
@@ -31,7 +47,7 @@ h3{
   /* font-family: 'Roboto', sans-serif; */
 }
 
-/* Change the color of links on hover */
+/*Style for navbar links when hovered*/
 .topnav a:hover {
   background-color: #ddd;
   color: #333;
@@ -43,18 +59,30 @@ h3{
   color: #333;
 }
 
-.footer {
+
+/* Creat a style for the footer */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end, space-between;  
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: #333;
-  text-align: center;
 }
 
-.footer a {
+/* Style the footer links */
+footer a {
   color: #D6AA7B
   font-size: 20px;
   color: #D6AA7B;
   font-family: 'Roboto', sans-serif;
 }
+
+/* footer a:hover .fa-linkedin-in {
+  transform: scale(1.5);
+} */
+
+footer a:hover .fa-linkedin-in {
+  color: #d85f61; }
