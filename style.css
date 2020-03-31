@@ -80,9 +80,22 @@ footer a {
   font-family: 'Roboto', sans-serif;
 }
 
-/* footer a:hover .fa-linkedin-in {
-  transform: scale(1.5);
-} */
+footer a:hover .fa-linkedin {
+  color: #0073B0;
+} 
 
-footer a:hover .fa-linkedin-in {
-  color: #d85f61; }
+footer a:hover .fa-github-square {
+  color: white;
+}
+
+footer a:hover .fa-twitter-square {
+  color: #1DA1F2;
+}
+
+footer a:hover .fa-medium {
+  color: #03A87C;
+}
+
+footer a:hover {
+  transform: scale(1.5);
+}
