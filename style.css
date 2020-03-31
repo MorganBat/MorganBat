@@ -73,6 +73,12 @@ footer {
   transition: 1s;
 }
 
+footer .copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
 /* Style the footer links */
 footer a {
   color: #D6AA7B
@@ -101,5 +107,17 @@ footer a:hover .fa-medium {
 
 /*Make icons bigger on hover */
 footer a:hover {
-  transform: scale(1.5);
+  transform: scale(2);
+}
+
+#footerleft {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+#footerright {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
 }
