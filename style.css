@@ -65,9 +65,21 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%
+  width: 100%;
+  min-height: 85%;
 }
 
+.content .heading {
+  font-size: 50px;
+}
+
+.content.subheading {
+
+}
+
+.content.main {
+
+}
 
 /* Create a style for the footer */
 footer {
