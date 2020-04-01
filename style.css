@@ -90,19 +90,28 @@ section {
 }
 
 /* Special styling for the social media links in about.html */
-#about-socials {
+/* #about-socials {
   grid-row-start: 5;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   width: 664px;
   padding: 0;
   margin: 0;
+} */
+
+#about-socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+/* Set up transition time when hovering on social icons on about page */
 #about-socials img {
   transition-duration: 0.5s;
+  flex-shrink: 1;
 }
 
+/* Set up hover effect on social icons on about page */
 #about-socials img:hover {
   transform: scale(1.1);
   box-shadow: 2px 2px 2px 2px #333;
@@ -175,9 +184,9 @@ footer a:hover {
 }
 
 /* Apply special hover styling to my name in the footer */
-#name:hover {
+  #name:hover {
 
-}
+  }
 
 /* Fix for socials on about page on mobile devices: */
 @media screen and (max-width: 700) {
@@ -194,12 +203,6 @@ footer a:hover {
 }
 
 @media screen and (max-width: 700px) {
-
-}
-
-/* Shrink left navbar on mobile */
-@media screen and (max-width: 400px) {
-
   .content .heading {
     font-size: 30px
   }
@@ -207,6 +210,11 @@ footer a:hover {
   .content .main {
     font-size: 10px;
   }
+}
+
+/* Shrink left navbar on mobile */
+@media screen and (max-width: 400px) {
+
   #navbarleft {
     display: flex;
     flex-direction: column;
