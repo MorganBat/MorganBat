@@ -59,7 +59,7 @@ body {
 
 section {
   height: 100%;
-  overflow-x: auto;
+  overflow-x: hidden;
 }
 
 /* Create a class for the main content on each page */
@@ -189,20 +189,13 @@ footer a:hover {
   }
 
 /* Fix for socials on about page on mobile devices: */
-@media screen and (max-width: 700) {
+@media screen and (max-width: 700px) {
   .content {
     display: grid;
     grid-template-columns: 2% auto 2%;
     grid-template-rows: 3% 50px 30px auto 50px 100px;
   }
-  #about-socials {
-    display: grid;
-    grid-template-columns: 2% auto 2%;
-    width: 300px;
-  }
-}
 
-@media screen and (max-width: 700px) {
   .content .heading {
     font-size: 30px
   }
@@ -210,10 +203,16 @@ footer a:hover {
   .content .main {
     font-size: 10px;
   }
+
+  #about-socials {
+    display: grid;
+    grid-template-columns: 2% auto 2%;
+    width: auto;
+  }
 }
 
 /* Shrink left navbar on mobile */
-@media screen and (max-width: 400px) {
+ @media screen and (max-width: 400px) {
 
   #navbarleft {
     display: flex;
@@ -224,5 +223,5 @@ footer a:hover {
 
   #footerleft {
     margin-left: 2px;
-  }
+  } 
 }
