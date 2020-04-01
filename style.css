@@ -19,6 +19,7 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+  width: 100%
 }
 
 /* Align items to left or right on navbar as required */
@@ -58,14 +59,14 @@ body {
 
 section {
   height: 100%;
+  overflow-x: auto;
 }
 
 /* Create a class for the main content on each page */
 .content {
   display: grid;
-  grid-template-columns: 2% auto 1%;
-  grid-template-rows: 3% 50px 2% auto 20px;
-
+  grid-template-columns: 2% auto 2%;
+  grid-template-rows: 3% 50px 2% auto 100px;
 }
 
 /* Content heading subtype */
@@ -84,17 +85,9 @@ section {
 
 /* Special styling for the social media links in about.html */
 #about-socials {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start ;
-  width: 40%;
-  margin-left: 5%;
-  margin-right: 55%;
-}
-
-.about-socials-link {
-  flex-shrink: 1;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  width: 664px;
 }
 
 /* Create a style for the footer */
@@ -168,6 +161,17 @@ footer a:hover {
 
 }
 
+/* Fix for socials on about page on mobile devices: */
+/* @media only screen and (max-width: 700) {
+  #about-socials {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+  }
+} */
+
+
 /* Shrink left navbar on mobile */
 @media only screen and (max-width: 400px) {
 
@@ -186,7 +190,6 @@ footer a:hover {
   }
 
   #footerleft {
-
     margin-left: 2px;
   }
 }
