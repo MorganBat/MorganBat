@@ -128,10 +128,6 @@ footer a:hover {
   margin-left: 10px;
 }
 
-#footerleft hover {
-  transform: skew(-10deg)
-}
-
 /* Align icons in footer to the right */
 #footerright {
   display: flex;
