@@ -90,7 +90,8 @@ section {
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-start ;
-  flex-wrap: wrap;
+  
+  width: 50%;
 }
 
 /* Create a style for the footer */
@@ -166,5 +167,11 @@ footer a:hover {
 
 /* Shrink left navbar on mobile */
 @media only screen and (max-width: 400px) {
-  
+  .content .heading {
+    font-size: 30px
+  }
+
+  #navbarleft {
+    
+  }
 }
