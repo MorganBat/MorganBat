@@ -65,8 +65,8 @@ section {
 /* Create a class for the main content on each page */
 .content {
   display: grid;
-  grid-template-columns: 2% auto 2%;
-  grid-template-rows: 3% 50px 2% auto 100px;
+  grid-template-columns: 2% 664px 2%;
+  grid-template-rows: 3% 50px 30px auto 50px 100px;
 }
 
 /* Content heading subtype */
@@ -74,6 +74,12 @@ section {
   grid-column-start: 2;
   grid-row-start: 2;  
   font-size: 50px;
+}
+
+.content .subheading {
+  font-size: 30px;
+  grid-column-start: 2;
+  grid-row-start: 3;
 }
 
 /* Main content subtype */
@@ -85,6 +91,7 @@ section {
 
 /* Special styling for the social media links in about.html */
 #about-socials {
+  grid-row-start: 5;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   width: 664px;
@@ -96,7 +103,7 @@ section {
 
 #about-socials img:hover {
   transform: scale(1.1);
-  box-shadow: 2px 2px 2px 2px grey;
+  box-shadow: 2px 2px 2px 2px #333;
 }
 
 /* Create a style for the footer */
@@ -171,14 +178,13 @@ footer a:hover {
 }
 
 /* Fix for socials on about page on mobile devices: */
-/* @media only screen and (max-width: 700) {
+@media screen and (max-width: 700) {
   #about-socials {
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    width: 100%;
+    display: grid;
+    grid-template-columns: 2% auto 2%;
+     width: auto;
   }
-} */
+}
 
 
 /* Shrink left navbar on mobile */
