@@ -5,7 +5,6 @@ body {
   border: 0;
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
 /* Create my top nav bar */
@@ -17,7 +16,6 @@ body {
   background-color: #333;
   color: #D6AA7B;
   font-family: 'Roboto', sans-serif;
-  /* overflow: hidden; */
   margin: 0;
   padding: 0;
   border: 0;
@@ -59,7 +57,7 @@ body {
 }
 
 section {
-  height: 100vh;
+  height: 100%;
 }
 
 /* Create a class for the main content on each page */
@@ -88,10 +86,15 @@ section {
 #about-socials {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start ;
-  
-  width: 50%;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 55%;
+}
+
+.about-socials-link {
+  flex-shrink: 1;
 }
 
 /* Create a style for the footer */
@@ -99,7 +102,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;  
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -167,11 +170,23 @@ footer a:hover {
 
 /* Shrink left navbar on mobile */
 @media only screen and (max-width: 400px) {
+
+  body {
+    overflow-y: scroll;
+  }
+
   .content .heading {
     font-size: 30px
   }
 
   #navbarleft {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  #footerleft {
+
+    margin-left: 2px;
   }
 }
