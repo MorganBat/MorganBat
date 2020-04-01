@@ -61,24 +61,27 @@ body {
 
 /* Create a class for the main content on each page */
 .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  min-height: 85%;
+  display: grid;
+  grid-template-columns: 20% auto;
+  grid-template-rows: 20% 10% 15% auto;
 }
 
+/* Content heading subtype */
 .content .heading {
-  font-size: 50px;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  font-size: 70px;
 }
 
+/* Content subheading subtype */
 .content.subheading {
 
 }
 
+/* Main content subtype */
 .content.main {
-
+  grid-column-start: 2;
+  grid-row-start: 3;
 }
 
 /* Create a style for the footer */
@@ -149,5 +152,5 @@ footer a:hover {
 
 /* Apply special hover styling to my name in the footer */
 #name:hover {
-  
+
 }
