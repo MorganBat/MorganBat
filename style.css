@@ -70,10 +70,12 @@ h3{
 }
 
 /* Create a class for the main content on each page */
-/* .content {
+.content {
   display: flex;
-  flex-direction: column-reverse;
-} */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 
 /* Create a style for the footer */
