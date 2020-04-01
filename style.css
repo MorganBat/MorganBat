@@ -22,9 +22,9 @@ h3{
   color: #D6AA7B;
   font-family: 'Roboto', sans-serif;
   /* overflow: hidden; */
-  margin: 0
-  padding: 0
-  border: 0
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 /* Align items to left or right on navbar as required */
@@ -69,8 +69,14 @@ h3{
   color: #333;
 }
 
+/* Create a class for the main content on each page */
+/* .content {
+  display: flex;
+  flex-direction: column-reverse;
+} */
 
-/* Creat a style for the footer */
+
+/* Create a style for the footer */
 footer {
   display: flex;
   flex-direction: row;
@@ -95,7 +101,7 @@ footer a {
   padding: 5px;
 }
 
-/* Change individual icon colors */
+/* Change individual icon colors when hovered */
 footer a:hover .fa-linkedin {
   color: #0073B0;
 } 
