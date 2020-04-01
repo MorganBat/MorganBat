@@ -179,10 +179,15 @@ footer a:hover {
 
 /* Fix for socials on about page on mobile devices: */
 @media screen and (max-width: 700) {
+  .content {
+    display: grid;
+    grid-template-columns: 2% auto 2%;
+    grid-template-rows: 3% 50px 30px auto 50px 100px;
+  }
   #about-socials {
     display: grid;
     grid-template-columns: 2% auto 2%;
-     width: auto;
+    width: 100%;
   }
 }
 
