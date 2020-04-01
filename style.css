@@ -90,6 +90,15 @@ section {
   width: 664px;
 }
 
+#about-socials img {
+  transition-duration: 0.5s;
+}
+
+#about-socials img:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 2px 2px 2px grey;
+}
+
 /* Create a style for the footer */
 footer {
   display: flex;
@@ -173,10 +182,11 @@ footer a:hover {
 
 
 /* Shrink left navbar on mobile */
-@media only screen and (max-width: 400px) {
+@media screen and (max-width: 400px) {
 
   body {
     overflow-y: scroll;
+    font-size: 10px;
   }
 
   .content .heading {
