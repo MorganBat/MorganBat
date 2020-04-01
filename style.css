@@ -95,6 +95,8 @@ section {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   width: 664px;
+  padding: 0;
+  margin: 0;
 }
 
 #about-socials img {
