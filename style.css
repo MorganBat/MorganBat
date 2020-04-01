@@ -5,6 +5,7 @@ body {
   border: 0;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 h3{
@@ -83,6 +84,7 @@ footer {
   font-family: 'Roboto', sans-serif;
   color: #D6AA7B;
   align-items: center;
+  box-sizing: border-box;
 }
 
 /* Style the footer links */
@@ -113,6 +115,9 @@ footer a:hover .fa-medium {
 /*Make icons bigger on hover */
 footer a:hover {
   transform: scale(1.618);
+  /* font-size: 35px; */
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* Align text in footer to the left */
