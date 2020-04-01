@@ -65,8 +65,8 @@ section {
 /* Create a class for the main content on each page */
 .content {
   display: grid;
-  grid-template-columns: 2% auto 2%;
-  grid-template-rows: 2% 66px 44px 10px auto 20px;
+  grid-template-columns: 2% auto 1%;
+  grid-template-rows: 5% 66px 5% 10px auto 20px;
 
 }
 
@@ -77,18 +77,16 @@ section {
   font-size: 60px;
 }
 
-/* Content subheading subtype */
-.content .subheading {
-  grid-column-start: 2;
-  grid-row-start: 3;
-  font-size: 40px;
-}
-
 /* Main content subtype */
 .content .main {
   font-size: 20px;
   grid-column-start: 2;
   grid-row-start: 5;
+}
+
+/* Special styling for the social media links in about.html */
+#about-socials {
+
 }
 
 /* Create a style for the footer */
@@ -159,5 +157,10 @@ footer a:hover {
 
 /* Apply special hover styling to my name in the footer */
 #name:hover {
+
+}
+
+/* Shrink left navbar on mobile */
+@media only screen and (max-width: 400px) {
 
 }
