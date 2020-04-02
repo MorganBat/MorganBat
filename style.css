@@ -1,7 +1,9 @@
 /* Set basic styling for the body of the page */
 body {
-  color: #383543;
-  background-color: #EBE1C6;
+  /* color: #383543; */
+  /* background-color: #EBE1C6; */
+  color: #EBE1C6;
+  background-color: #383543;
   font-family: 'Roboto', sans-serif;
   border: 0;
   margin: 0;
@@ -19,8 +21,10 @@ img {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
-  color: #EBE1C6;
+  /* background-color: #333;
+  color: #EBE1C6; */
+  color: #333;
+  background-color: #EBE1C6;
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
@@ -59,8 +63,8 @@ img {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #EBE1C6;
-  color: #333;
+  background-color: #333;
+  color: #EBE1C6;
 }
 
 section {
@@ -90,7 +94,7 @@ section {
 
 /* Change styling for hyperlinks in content */
 .content .main a {
-  color: #333;
+  color: #EBE1C6;
 }
 
 .content .main .filesize {
@@ -143,7 +147,7 @@ section {
 /* Set up hover effect on social icons on about page */
 #about-socials img:hover {
   transform: scale(1.1);
-  box-shadow: 2px 2px 2px 2px #333;
+  box-shadow: 2px 2px 2px 2px #EBE1C6;
 }
 
 /* Create a style for the footer */
@@ -155,7 +159,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #333;
+  background-color: #EBE1C6;
   transition: 1s;
   font-family: 'Roboto', sans-serif;
   color: #EBE1C6;
@@ -166,7 +170,7 @@ footer {
 /* Style the footer links */
 footer a {
   font-size: 30px;
-  color: #EBE1C6;
+  color: #333;
   margin: 2px;
   padding: 5px;
 }
