@@ -48,7 +48,7 @@ img {
 /* Style for navbar links */
 .topnav a {
   float: left;
-  color: #EBE1C6;
+  color: #333;
   padding: 10px 10px;
   text-decoration: none;
   font-size: 20px;
