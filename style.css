@@ -232,7 +232,6 @@ footer a:hover {
   .topnav {
   display: flex;
   flex-direction: column;
-  justify-content: start;
  }
 
  #navbarleft {
