@@ -229,9 +229,10 @@ footer a:hover {
 /* Fix display error on very small screens */
 @media screen and (max-width: 200px) {
 
- .topnav {
+  .topnav {
   display: flex;
   flex-direction: column;
+  justify-content: start;
  }
 
  #navbarleft {
