@@ -116,12 +116,22 @@ section {
   font-size: 80px;
   grid-column-start: 2;
   grid-row-start: 2;
+  transition-duration: 1s;
+}
+
+#index-content #index-heading:hover {
+  letter-spacing: 3pt;
 }
 
 #index-content #index-main {
   font-size: 45px;
   grid-column-start: 2;
   grid-row-start: 4;
+  transition-duration: 1s;
+}
+
+#index-content #index-main:hover {
+  letter-spacing: 1pt;
 }
 
 #about-socials {
@@ -197,6 +207,11 @@ footer a:hover {
   justify-content: flex-start;
   font-size: 20px;
   margin-left: 10px;
+  transition-duration: 1s;
+}
+
+#footerleft:hover {
+  letter-spacing: 2pt;
 }
 
 /* Align icons in footer to the right */
@@ -205,15 +220,6 @@ footer a:hover {
   flex-direction: row;
   justify-content: flex-end;
   margin-right: 8px;
-}
-
-/* Apply special hover styling to my name in the footer */
-#footerleft #name a{
-  transition-duration: 1s;
-}
-
-#footerleft #name a:hover {
-  letter-spacing: 3;
 }
 
 /* Fix for socials on about page on mobile devices: */
