@@ -7,7 +7,7 @@ repo hosted at https://github.com/MorganBat/morganbat.github.io
 website available at https://morganbatterham.me
 
 #### Purpose
-The purpose of this website is to showcase my abilities as a Web Developer to any future potential employers or collaborators. 
+The purpose of this website is to showcase my abilities as a Full Stack Web Developer to any future potential employers or collaborators. 
 
 The website will contain data such as my Name, email address, and links to various Social Media profiles including my GitHub, LinkedIn, Twitter and Medium profiles.
 
@@ -16,13 +16,25 @@ The website will contain data such as my Name, email address, and links to vario
 
 #### Sitemap
 
+![Sitemap](./images/sitemap.png)
+
 #### Screenshots
+
+![Index page](./images/index-ss.png)
+
+![About page](./images/about-ss.png)
+
+![Blog page](./images/blog-ss.png)
+
+![Projects page](./images/projects-ss.png)
+
+![Contact-page](./images/contact-ss.png)
 
 #### Target audience
 
 This website is primarily designed for the staff at Coder Academy!
 
-Future versions will be designed to showcase my abilities as a developer to potential employers or collaborators 
+Future versions will be designed to showcase my abilities as a developer to potential employers or collaborators.
 
 #### Tech stack (e.g. html, css, deployment platform, etc)
 
@@ -33,3 +45,5 @@ Future versions will be designed to showcase my abilities as a developer to pote
 -GitHub Pages for hosting
 
 -PorkBun for domain registration
+
+-draw.io for Sitemap production
