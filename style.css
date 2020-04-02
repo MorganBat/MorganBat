@@ -89,6 +89,11 @@ section {
   grid-row-start: 4;
 }
 
+/* Change styling for hyperlinks in content */
+.content .main a {
+  color: #333;
+}
+
 /* Special styling for the social media links in about.html */
 /* #about-socials {
   grid-row-start: 5;
@@ -255,10 +260,12 @@ footer a:hover {
    justify-content: start;
    flex-wrap: wrap;
  }
+ 
  #navbarright {
   display: flex;
   flex-direction: column;
   justify-content: start;
   flex-wrap: wrap;
  }
+
 }
