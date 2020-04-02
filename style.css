@@ -71,7 +71,7 @@ section {
 .content {
   display: grid;
   grid-template-columns: 2% 664px 2%;
-  grid-template-rows: 50px 120px auto 100px;
+  grid-template-rows: 50px 100px auto 100px;
 }
 
 /* Content heading subtype */
@@ -222,6 +222,7 @@ footer a:hover {
   .content {
     display: grid;
     grid-template-columns: 2% auto 2%;
+    grid-template-rows: 33px 70px auto 66px;
   }
 
   .content .heading {
@@ -229,7 +230,7 @@ footer a:hover {
   }
 
   .content .main {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .content .main .filesize {
