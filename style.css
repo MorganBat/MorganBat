@@ -107,19 +107,22 @@ section {
 /* Special styling for the landing page */
 #index-content {
   display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  height: 100%;
 }
 
+#index-content #index-heading {
+  font-size: 80px;
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
 
-
-/* Special styling for the social media links in about.html */
-/* #about-socials {
-  grid-row-start: 5;
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  width: 664px;
-  padding: 0;
-  margin: 0;
-} */
+#index-content #index-main {
+  font-size: 45px;
+  grid-column-start: 2;
+  grid-row-start: 4;
+}
 
 #about-socials {
   display: flex;
@@ -238,9 +241,6 @@ footer a:hover {
     justify-content: space-between;
   }
 
-  #about-socials img {
-    flex-shrink: 1;
-  }
 }
 
 /* Wrap navbar and footer on mobile */
@@ -253,6 +253,14 @@ footer a:hover {
     flex-wrap: wrap;
   } 
 
+  #index-content #index-heading {
+    font-size: 50px;
+  }
+  
+  #index-content #index-main {
+    font-size: 30px;
+  }
+
   #footerleft {
     margin-left: 2px;
   } 
@@ -261,6 +269,14 @@ footer a:hover {
 
 /* Wrap footer icons on mobile */
 @media screen and (max-width: 300px) {
+  #index-content #index-heading {
+    font-size: 30px;
+  }
+  
+  #index-content #index-main {
+    font-size: 20px;
+  }
+ 
   #footerright {
     display: flex;
     flex-direction: row;
