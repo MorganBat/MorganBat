@@ -64,7 +64,6 @@ img {
 }
 
 section {
-  height: 100%;
   overflow-x: hidden;
 }
 
@@ -72,27 +71,21 @@ section {
 .content {
   display: grid;
   grid-template-columns: 2% 664px 2%;
-  grid-template-rows: 3% 50px 30px auto 50px 100px;
+  grid-template-rows: 50px 120px auto 100px;
 }
 
 /* Content heading subtype */
 .content .heading {
   grid-column-start: 2;
   grid-row-start: 2;  
-  font-size: 50px;
-}
-
-.content .subheading {
-  font-size: 30px;
-  grid-column-start: 2;
-  grid-row-start: 3;
+  font-size: 45px;
 }
 
 /* Main content subtype */
 .content .main {
-  font-size: 20px;
+  font-size: 18px;
   grid-column-start: 2;
-  grid-row-start: 4;
+  grid-row-start: 3;
 }
 
 /* Change styling for hyperlinks in content */
@@ -227,7 +220,6 @@ footer a:hover {
   .content {
     display: grid;
     grid-template-columns: 2% auto 2%;
-    grid-template-rows: 3% 50px 30px auto 50px 100px;
   }
 
   .content .heading {
