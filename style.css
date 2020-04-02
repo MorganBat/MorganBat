@@ -211,7 +211,7 @@ footer a:hover {
   }
 }
 
-/* Shrink left navbar on mobile */
+/* Wrap navbar and footer on mobile */
  @media screen and (max-width: 400px) {
 
   #navbarleft {
@@ -224,6 +224,17 @@ footer a:hover {
   #footerleft {
     margin-left: 2px;
   } 
+
+}
+
+/* Wrap footer icons on mobile */
+@media screen and (max-width: 300px) {
+  #footerright {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
 }
 
 /* Fix display error on very small screens */
