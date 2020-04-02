@@ -94,6 +94,10 @@ section {
   color: #333;
 }
 
+.content .main .filesize {
+  font-size: 12px;
+}
+
 /* Special styling for the social media links in about.html */
 /* #about-socials {
   grid-row-start: 5;
@@ -206,6 +210,10 @@ footer a:hover {
 
   .content .main {
     font-size: 10px;
+  }
+
+  .content .main .filesize {
+    font-size: 6px
   }
 
   #about-socials {
