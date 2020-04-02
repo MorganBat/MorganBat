@@ -32,11 +32,13 @@ The about page contains a small blurb including my interests and a brief overvie
 Media queries have been use to change the text size and wrapping of the heading and content. I have also used media queries and flexbox to scale the distance between the icons so they are always split equally across the screen on mobile devices.
 
 ##### Blog Page 
-My blog page is quite scarce as I do my blogging on Medium. I have included the titles of the blog posts with a picture immediately below. Clicking anywhere here 
+My blog page is quite scarce as I do my blogging on Medium. I have included the titles of the blog posts with a picture immediately below. Clicking anywhere on either the title or image will open the blog posts in a new tab. For the purposes of this assignment there are some placeholder blog posts which merely direct to a new page full of placeholder text.
 
 ##### Projects Page
+My projects page is very similar to my Blog page, with the title of the project directly above an image representing my project. Clicking either of these direct to the github repository of the project. I have also included a small blurb below each image which explains the purpose of the app
 
 ##### Contact Page
+My contact page is very barebones as my social media is linked in the footer of every page and on special icons on the about page. I have also included a mailto: link directed at my email.
 
 #### Sitemap
 
