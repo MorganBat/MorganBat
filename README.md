@@ -7,7 +7,7 @@ repo hosted at https://github.com/MorganBat/morganbat.github.io
 website available at https://morganbatterham.me
 
 #### Purpose
-The purpose of this website is to showcase my abilities as a Full Stack Web Developer to any future potential employers or collaborators. 
+The purpose of this website is to create a mobile responsive website to showcase my abilities in various web development technologies such as HTML, CSS etc.
 
 The website will contain data such as my Name, email address, and links to various Social Media profiles including my GitHub, LinkedIn, Twitter and Medium profiles.
 
@@ -20,15 +20,22 @@ The website will contain data such as my Name, email address, and links to vario
 
 #### Screenshots
 
+Index Page
 ![Index page](./images/index-ss.png)
 
+About Page
 ![About page](./images/about-ss.png)
 
+Blog Page
 ![Blog page](./images/blog-ss.png)
 
+Projects Page
 ![Projects page](./images/projects-ss.png)
 
+Contact Page
 ![Contact-page](./images/contact-ss.png)
+
+#### Wire Frames
 
 #### Target audience
 
@@ -36,7 +43,7 @@ This website is primarily designed for the staff at Coder Academy!
 
 Future versions will be designed to showcase my abilities as a developer to potential employers or collaborators.
 
-#### Tech stack (e.g. html, css, deployment platform, etc)
+#### Technology Stack
 
 -HTML5
 
@@ -47,3 +54,5 @@ Future versions will be designed to showcase my abilities as a developer to pote
 -PorkBun for domain registration
 
 -draw.io for Sitemap production
+
+-Balsamiq Wireless for Wireframe production
