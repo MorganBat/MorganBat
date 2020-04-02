@@ -225,3 +225,19 @@ footer a:hover {
     margin-left: 2px;
   } 
 }
+
+/* Fix display error on very small screens */
+@media screen and (max-width: 200px) {
+ #navbarleft {
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   flex-wrap: wrap;
+ }
+ #navbarright {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  flex-wrap: wrap;
+ }
+}
