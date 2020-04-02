@@ -37,6 +37,22 @@ Contact Page
 
 #### Wire Frames
 
+Index Page
+![Index page](./images/index-wf.png)
+
+About Page
+![About page](./images/about-wf.png)
+
+Blog Page
+![Blog page](./images/blog-wf.png)
+
+Projects Page
+![Projects page](./images/projects-wf.png)
+
+Contact Page
+![Contact-page](./images/contact-wf.png)
+
+
 #### Target audience
 
 This website is primarily designed for the staff at Coder Academy!
