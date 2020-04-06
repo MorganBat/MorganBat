@@ -70,7 +70,7 @@ section {
 /* Create a class for the main content on each page */
 .content {
   display: grid;
-  grid-template-columns: 2% 664px 2%;
+  grid-template-columns: 2% 665px 2%;
   grid-template-rows: 50px 100px auto 100px;
 }
 
