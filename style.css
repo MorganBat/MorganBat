@@ -244,6 +244,18 @@ footer a:hover {
 
 }
 
+/* Styles main page text to fit correctly on smaller devices */
+@media screen and (max-width: 500px) {
+  
+  #index-content #index-heading {
+    font-size: 50px;
+  }
+
+  #index-content #index-main {
+    font-size: 30px;
+  }
+}
+
 /* Wrap navbar and footer on mobile */
  @media screen and (max-width: 400px) {
 
@@ -253,14 +265,6 @@ footer a:hover {
     justify-content: start;
     flex-wrap: wrap;
   } 
-
-  #index-content #index-heading {
-    font-size: 50px;
-  }
-
-  #index-content #index-main {
-    font-size: 30px;
-  }
 
   #footerleft {
     margin-left: 2px;
