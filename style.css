@@ -170,6 +170,7 @@ footer a {
   color: #DCE3D7;
   margin: 2px;
   padding: 5px;
+  transition-duration: 100ms;
 }
 
 /* Change individual icon colors when hovered */
