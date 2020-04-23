@@ -164,38 +164,6 @@ footer {
   box-sizing: border-box;
 }
 
-/* Style the footer links */
-footer a {
-  font-size: 30px;
-  color: #e8e8e8;
-  margin: 2px;
-  padding: 5px;
-  transition-duration: 100ms;
-}
-
-/* Change individual icon colors when hovered */
-footer a:hover .fa-linkedin {
-  color: #0073B0;
-} 
-
-footer a:hover .fa-github-square {
-  color: white;
-}
-
-footer a:hover .fa-twitter-square {
-  color: #1DA1F2;
-}
-
-footer a:hover .fa-medium {
-  color: #03A87C;
-}
-
-/*Make icons bigger on hover */
-footer a:hover {
-  transform: scale(1.618);
-  margin: 0;
-  box-sizing: border-box;
-}
 
 /* Align text in footer to the left */
 #footerleft {
@@ -204,12 +172,19 @@ footer a:hover {
   justify-content: flex-start;
   font-size: 20px;
   margin-left: 10px;
-  transition-duration: 1s;
+  /* transition-duration: 1s; */
 }
 
+#footerleft a {
+  font-size: 20px;
+  /* text-decoration: none; */
+  color: #e8e8e8;
+  margin-left: 5px;
+}
+/* 
 #footerleft:hover {
   letter-spacing: 2pt;
-}
+} */
 
 /* Align icons in footer to the right */
 #footerright {
@@ -219,6 +194,40 @@ footer a:hover {
   margin-right: 8px;
 }
 
+
+/* Style the #footerright links */
+#footerright a {
+  font-size: 30px;
+  color: #e8e8e8;
+  margin: 2px;
+  padding: 5px;
+  transition-duration: 100ms;
+}
+
+/*Make icons bigger on hover */
+#footerright a:hover {
+  transform: scale(1.618);
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Change individual icon colors when hovered */
+#footerright a:hover .fa-linkedin {
+  color: #0073B0;
+} 
+
+#footerright a:hover .fa-github-square {
+  color: white;
+}
+
+#footerright a:hover .fa-twitter-square {
+  color: #1DA1F2;
+}
+
+#footerright a:hover .fa-medium {
+  color: #03A87C;
+}
+  
 /* Fix for socials on about page on mobile devices: */
 @media screen and (max-width: 700px) {
   .content {
