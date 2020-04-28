@@ -1,7 +1,7 @@
 /* Set basic styling for the body of the page */
 body {
   color: #383543;
-  background-color: #e8e8e8;
+  background-color: #f5f5f5;
   font-family: 'Roboto', sans-serif;
   border: 0;
   margin: 0;
@@ -20,7 +20,7 @@ img {
   justify-content: space-between;
   align-items: center;
   background-color: #333;
-  color: #e8e8e8;
+  color: #f5f5f5;
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
@@ -44,7 +44,7 @@ img {
 /* Style for navbar links */
 .topnav a {
   float: left;
-  color: #e8e8e8;
+  color: #f5f5f5;
   padding: 10px 10px;
   text-decoration: none;
   font-size: 20px;
@@ -60,7 +60,7 @@ img {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #e8e8e8;
+  background-color: #f5f5f5;
   color: #333;
 }
 
@@ -159,7 +159,7 @@ footer {
   background-color: #333;
   transition: 1s;
   font-family: 'Roboto', sans-serif;
-  color: #e8e8e8;
+  color: #f5f5f5;
   align-items: center;
   box-sizing: border-box;
 }
@@ -178,7 +178,7 @@ footer {
 #footerleft a {
   font-size: 20px;
   /* text-decoration: none; */
-  color: #e8e8e8;
+  color: #f5f5f5;
   margin-left: 5px;
 }
 /* 
@@ -198,7 +198,7 @@ footer {
 /* Style the #footerright links */
 #footerright a {
   font-size: 30px;
-  color: #e8e8e8;
+  color: #f5f5f5;
   margin: 2px;
   padding: 5px;
   transition-duration: 100ms;
