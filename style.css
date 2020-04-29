@@ -101,7 +101,7 @@ section {
 /* Special styling for the landing page */
 #index-content {
   display: grid;
-  grid-template-columns: 1fr 9fr;
+  grid-template-columns: 1fr 19fr;
   grid-template-rows: 1fr 2fr 1fr;
   height: 100%;
 }
