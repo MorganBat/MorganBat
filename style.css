@@ -98,7 +98,7 @@ section {
 
 .content {
     display: grid;
-    grid-template-columns: 2% 665px 2%;
+    grid-template-columns: 20% 60% auto;
     grid-template-rows: 50px 100px auto 100px;
 }
 
