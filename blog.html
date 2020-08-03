@@ -6,19 +6,25 @@
     <title>Blog</title>
     <link href="./style.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/1f7b826b48.js" crossorigin="anonymous"></script>
+    <script src="./hamburger.js"></script>
 </head>
 <body>
     <div class="topnav">
-        <span id = "navbarleft">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="blog.html" class = "active">Blog</a>
-            <a href="projects.html">Projects</a>
+        <span id="navbarleft">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <span id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="blog.html" class="active">Blog</a>
+                <a href="projects.html">Projects</a>
+            </span>
         </span>
-        <span id = "navbarright">
+        <span id="navbarright">
             <a href="contact.html" id = "contact">Contact</a>
-        </span>  
-    </div>
+        </span>
+    </div>    
     <section class = "content">
         <div class = "heading">
             Blog

@@ -34,12 +34,19 @@ img {
 }
 
 
+/* Styling for hamburger menu */
+
+#navLinks {
+    display: none;
+}
+
+
 /* Align items to left or right on navbar as required */
 
 #navbarleft {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: flex-start;
 }
 
 #navbarright {
@@ -306,6 +313,9 @@ footer {
 /* Styles main page text to fit correctly on smaller devices */
 
 @media screen and (max-width: 500px) {
+    #navbarleft {
+        flex-direction: column;
+    }
     #index-content #index-heading {
         font-size: 50px;
     }
@@ -320,9 +330,11 @@ footer {
 @media screen and (max-width: 400px) {
     #navbarleft {
         display: flex;
-        flex-direction: column;
         justify-content: start;
         flex-wrap: wrap;
+    }
+    #navLinks {
+        flex-direction: column;
     }
     #footerleft {
         margin-left: 2px;
