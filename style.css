@@ -152,23 +152,12 @@ section {
     font-size: 80px;
     grid-column-start: 2;
     grid-row-start: 2;
-    transition-duration: 1s;
-}
-
-#index-content #index-heading:hover {
-    letter-spacing: 3pt;
-    transform: translateY(8px);
 }
 
 #index-content #index-main {
     font-size: 45px;
     grid-column-start: 2;
     grid-row-start: 4;
-    transition-duration: 1s;
-}
-
-#index-content #index-main:hover {
-    letter-spacing: 1pt;
 }
 
 #about-socials {
